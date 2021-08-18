@@ -28,5 +28,5 @@ int main()
 {
 	ll a,b,c,d;
 	cin >> a >> b >> c >> d;
-	cout<<solve(a,b,c) + solve(a,b,d) - solve(a,b,lcm(c,d));
+	cout<<solve(a,b,lcm(c,d));
 }
