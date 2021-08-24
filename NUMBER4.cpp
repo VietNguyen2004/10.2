@@ -25,9 +25,9 @@ int main()
 	sang(max_elements);
 	for(int i = n-1;i >= 2;i--)
 	{
-		if(Prime[a[i-1]] && Prime[a[i+1]])
+		if(Prime[abs(a[i-1])] && Prime[abs(a[i+1])])
 		{
-			cout<<i;
+			cout<< i;
 			return 0;
 		}
 	}
